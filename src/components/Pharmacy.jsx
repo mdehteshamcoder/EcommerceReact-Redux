@@ -6,7 +6,7 @@ import { useFetchProducts } from "../Hook/fetchProducts";
 import { filter } from "@chakra-ui/react";
 import {useParams}  from "react-router-dom"
 import {Link} from "react-router-dom"
-export const Home = () => {
+export const Pharmacy = () => {
   const [products, setProducts] = React.useState([]);
   const token = useSelector((state) => state.auth.toggle);
   const [page, setPage] = React.useState(1);

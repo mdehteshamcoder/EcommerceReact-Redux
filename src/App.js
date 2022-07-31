@@ -2,6 +2,8 @@
 import './App.css';
 import { Navbar } from './components/Navbar';
 import { Pages } from './Pages/Pages';
+import {Home} from "./Pages/Home"
+import {Login} from "./Pages/Login"
 
 function App() {
   return (
@@ -13,3 +15,7 @@ function App() {
 }
 
 export default App;
+
+
+
+

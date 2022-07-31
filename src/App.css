@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cardProduct{
+  /* border: 1px solid red; */
+  height:700px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardProduct>img{
+  
+  height:30%;
 }
+.main{
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px;
+  padding:20px;
+  /* height:70px; */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.sortingDiv{
+  /* border: 1px solid red; */
+  width:200px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 10px;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.cartMain{
+  /* border: 1px solid red; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cartIndividual{
+  /* border: 1px solid blue; */
+  /* display: flex; */
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.filterRatingDiv{
+  /* border:1px solid blue; */
+  width:400px;
+  justify-content: space-evenly;
+  display: flex;
+  margin-left: 1100px;
+  margin-top: -30px;
+}
+.pagination{
+  margin-left: 600px;
+
+}
+
+.cartImage{
+  /* border: 1px solid red; */
+  height: 300px;
+
+}
+.cartImage>img{
+  height: 100%;
+}
+.title{
+  /* border: 1px solid red; */
+  width:600px;
+  margin-left: 20px;
+
+
+}
+.imgTitle{
+  /* border: 1px solid purple; */
+  display: flex;
 }
